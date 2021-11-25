@@ -1,4 +1,4 @@
-# Creación de una visualización del proyecto Tresca
+# Creación de una visualización del proyecto TRESCA
 
 ## Beatriz Alonso Casares
 
