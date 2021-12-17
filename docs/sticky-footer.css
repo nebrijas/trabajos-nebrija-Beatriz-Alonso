@@ -1,0 +1,194 @@
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container {
+	width: auto;
+	max-width: 680px;
+	padding: 0 15px;
+}
+
+	{
+	box-sizing: border-box;
+}
+
+
+.row:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+
+
+[class*="col-"] {
+	float: left;
+	padding: 5px;
+	width: 100%;
+}
+
+
+
+@media only screen and (min-width:768px) {
+	background-color: blue;
+
+
+	.col-1 {
+		width: 8.33%;
+	}
+
+	.col-2 {
+		width: 16.66%;
+	}
+
+	.col-3 {
+		width: 25%;
+	}
+
+	.col-4 {
+		width: 33.33%;
+	}
+
+	.col-5 {
+		width: 41.66%;
+	}
+
+	.col-6 {
+		width: 50%;
+	}
+
+	.col-7 {
+		width: 58.33%;
+	}
+
+	.col-8 {
+		width: 66.66%;
+	}
+
+	.col-9 {
+		width: 75%;
+	}
+
+	.col-10 {
+		width: 83.33%;
+	}
+
+	.col-11 {
+		width: 91.66%;
+	}
+
+	.col-12 {
+		width: 100%;
+	}
+}
+
+body {
+	color: #000000;
+	background-color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-style: 700;
+	padding-bottom: -5px;
+
+}
+
+img {
+	margin: 15px;
+	width: 50%;
+	margin-left: 25%;
+}
+
+h2,
+h3 {
+	font-family: 'nNote Sanz';
+	font-style: 900;
+	font-size: 200%
+}
+
+
+.actividades {
+	margin-left: 50px;
+	margin-right: 50px;
+
+}
+
+.header {
+	color: #ffffff;
+	background-color: #252525;
+	float: left;
+	text-align: center;
+	padding-top: 15px;
+	text-align: center;
+}
+
+.menu {
+	color: #e49c48;
+	float: left;
+	font-family: 'Oswald', sans-serif;
+	font-family: 500;
+	background-color: #252525;
+	font-size: 100%;
+	padding: 10px;
+	text-align: center;
+}
+
+
+.menu a {
+	color: #ffffff;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-family: 500;
+	background-color: #252525;
+	font-size: 100%;
+}
+
+#intro h1 {
+	text-align: center;
+	color: #252525;
+	font-family: 'Oswald', sans-serif;
+	font-family: 500;
+	background-color: ;
+	font-size: 130%;
+	padding: 10px;
+}
+
+#actividad1 h1,
+#actividad2 h1,
+#actividad3 h1,
+#actividad4 h1 {
+	text-align: center;
+	color: #ffffff;
+	font-family: 'Oswald', sans-serif;
+	font-family: 500;
+	background-color: #252525;
+	font-size: 130%;
+	padding: 10px;
+	tab-size: 100%;
+	margin-left: -200px;
+	margin-right: -200px;
+}
+
+
+.actividad1 {}
+
+.actividad2 {
+	background-color: #6d6969;
+
+}
+
+.actividad3 {}
+
+.siniestralidad-en-las-carreteras-europeas {
+	background-color: #e49c48;
+
+}
+
+.footer {
+	color: white;
+	float: left;
+	font-family: 'Oswald', sans-serif;
+	font-family: 500;
+	text-align: center;
+	background-color: #252525;
+	margin-bottom: -100%;
+
+}
