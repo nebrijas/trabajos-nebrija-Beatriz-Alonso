@@ -5,11 +5,11 @@
 .container {
 	width: auto;
 	max-width: 680px;
-	padding: 0 15px;
+	padding: 0 0px;
 }
 
 	{
-	box-sizing: border-box;
+	box-sizing: -1 border-box;
 }
 
 
@@ -23,7 +23,6 @@
 
 [class*="col-"] {
 	float: left;
-	padding: 5px;
 	width: 100%;
 }
 
@@ -127,8 +126,12 @@ h3 {
 	font-family: 500;
 	background-color: #252525;
 	font-size: 100%;
-	padding: 10px;
+	margin: 10px;
 	text-align: center;
+}
+
+#menu {
+	width: 100%;
 }
 
 
@@ -139,6 +142,7 @@ h3 {
 	font-family: 500;
 	background-color: #252525;
 	font-size: 100%;
+
 }
 
 #intro h1 {
@@ -189,6 +193,16 @@ h3 {
 	font-family: 500;
 	text-align: center;
 	background-color: #252525;
+	width: 100%;
 	margin-bottom: -100%;
 
+
+}
+
+#piedepagina {
+	margin-left: 35%;
+}
+
+#registro {
+	margin-left: 35%;
 }
